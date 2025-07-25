@@ -1,5 +1,5 @@
 vim.pack.add({
-  "https://github.com/zbirenbaum/copilot.lua"
+  "https://github.com/zbirenbaum/copilot.lua",
 })
 
 require("copilot").setup({
@@ -11,4 +11,4 @@ require("copilot").setup({
       prev = "<C-e>",
     },
   },
-}) 
+})
