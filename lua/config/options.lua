@@ -2,6 +2,7 @@
 -- Remap leader key
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
+vim.g.border = "rounded"
 
 -- Indentation and formatting
 vim.opt.autoindent = true
