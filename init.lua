@@ -1,5 +1,5 @@
 require("config.options")
 require("config.dependencies")
-require("config.fold")
+require("config.folding")
 require("config.statuscolumn")
 require("config.copilot")
