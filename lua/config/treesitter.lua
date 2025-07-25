@@ -3,9 +3,11 @@ vim.pack.add({
     src = "https://github.com/nvim-treesitter/nvim-treesitter",
     version = "main",
   },
+  "https://github.com/windwp/nvim-ts-autotag",
 })
 
 local parsers = {
+  "html",
   "lua",
   "luadoc",
   "luap",
@@ -33,3 +35,11 @@ vim.keymap.set("n", "<leader>ts", function()
     vim.notify("Treesitter syntax highlighting enabled", vim.log.levels.INFO)
   end
 end, { desc = "Syntax highlighting" })
+
+require("nvim-ts-autotag").setup({
+  opts = {
+    enable_close = true,
+    enable_rename = true,
+    enable_close_on_slash = true,
+  },
+})
