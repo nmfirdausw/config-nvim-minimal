@@ -10,5 +10,7 @@ require("which-key").setup({
   icons = {
     mappings = false,
   },
-  spec = {},
+  spec = {
+    { "<leader>t", desc = "Toggle" },
+  },
 })

@@ -1,5 +1,6 @@
 require("config.options")
 require("config.dependencies")
+require("config.treesitter")
 require("config.folding")
 require("config.statuscolumn")
 require("config.formatting")
