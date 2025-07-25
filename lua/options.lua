@@ -14,7 +14,8 @@ vim.opt.tabstop = 2
 -- UI/UX
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
-vim.opt.number = true
-vim.opt.relativenumber = true
 vim.opt.wrap = false
-vim.opt.signcolumn = "yes"
+vim.opt.fillchars:append({ eob = " " })
+
+-- Behavior
+vim.opt.clipboard:append("unnamedplus")
