@@ -6,9 +6,7 @@ vim.opt.fillchars:append({
   foldclose = "+",
 })
 
-vim.pack.add({
-  "https://github.com/kevinhwang91/nvim-ufo",
-})
+vim.pack.add({ "https://github.com/kevinhwang91/nvim-ufo" })
 
 -- Fold provider [ lsp, treesitter, indent ] per filetype
 local ftprovider = {
